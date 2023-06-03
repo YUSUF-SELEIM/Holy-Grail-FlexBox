@@ -56,10 +56,10 @@ li {
 	justify-content: space-around;
 	gap: 5px;
 }
-img {
+/* img {
 	width: 45px;
 	height: 45px;
-}
+} */
 .ad {
 	border: #11009e solid 2px;
 	padding: 70px;
