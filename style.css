@@ -3,10 +3,13 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+html,body{
+	height: 100%;
+	background-color: #c4b0ff;
+}
 .body {
 	display: flex;
-	flex: 1;
-	background-color: #c4b0ff;
+	flex: 1;	
 }
 .header {
 	background-color: #11009e;
@@ -56,10 +59,10 @@ li {
 	justify-content: space-around;
 	gap: 5px;
 }
-/* img {
+img {
 	width: 45px;
 	height: 45px;
-} */
+}
 .ad {
 	border: #11009e solid 2px;
 	padding: 70px;
