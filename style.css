@@ -3,16 +3,6 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-html,
-body {
-	height: 100%;
-	background-color: #c4b0ff;
-}
-body {
-	display: flex;
-	flex: 1;
-	flex-direction: column;
-}
 .body {
 	display: flex;
 	flex: 1;
@@ -79,4 +69,16 @@ img {
 	justify-content: center;
 	background-color: #8696fe;
 	padding: 20px 60px;
+}
+@media (max-width: 1000px) {
+	html,
+	body {
+		height: 100%;
+		background-color: #c4b0ff;
+	}
+	body {
+		display: flex;
+		flex: 1;
+		flex-direction: column;
+	}
 }
